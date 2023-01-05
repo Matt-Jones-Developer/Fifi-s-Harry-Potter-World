@@ -24,7 +24,7 @@
                 <!-- navigation -->
                 <ul class="nav-right">
                     <li id="home"><a href="index.html">home</a></li>
-                    <li id="story"><a href="#story">story</a></li>
+                    <li id="story-nav"><a href="#story">story</a></li>
                     <li id="game"><a href="#game">game</a></li>
                     <li id="edit"><a href="#edit">edit</a></li>
                     <li id="contact"><a href="#contact">contact</a></li>
@@ -62,6 +62,10 @@
             <small>It is now up to the 'Creation Team' (aka Matt Jones & Sophia Davis) to decide how the projects develop!</small> 
             </p>
         </div>
+        <div class="text">
+            <!-- onward! -->
+            <p>Now, on with the show! - GlitchyGhost (Chief Game Designer/Master Builder)</p>
+        </div>
     </header>
 
     <!-- main  -->
@@ -70,17 +74,25 @@
             <section class="about" id="about">
                 <div class="boxes">
                     <div class="container">
+
                         <div class="box">
-                            <h2>The Projects</h2>
+                            <h2 style="text-align: left; padding-left: 1rem;">The Projects</h2>
                             <br>
                             <!-- about these projects -->
-                            <p>Prior to this build, I started a text based adventure game, coded in Python.  However, I soon realised it was going to get too long to code in time and will probably have that ready for your 20th haha!</p>
+                            <p>Prior to this build, I started a text based adventure game, coded in Python. <br> However, I soon realised it was going to get too long to code in time and will probably have that ready for Sophia's 20th haha!</p>
                             <p>The text-adventure game is called 'Death to Umbridge' and she is not featured in this project! Coming soon though...</p>
                             <p>That's when I discovered Scratch! The Creation Team have already had some good fun with this game maker, so as part of the Creation Team, feel free to go to EDIT and make changes.</p>
                             <p>The original plan was to have the intro, the story and the game all within a single Scratch file... but they're all too big to merge since they were created separate and largely ginormous for the most part!!.</p>
                             <p>The story is pretty much finished, there is a bug where Ginny comes on screen first (which she should not!) so please HIT THE GREEN FLAG 2 or 3 times to clear that.  I will work on a fix for it. </p>
-                            <p>Excitingly enough, the game logic works, I have a list of things to finish, including:</p>
-                            <div class="box-grid-container">
+                            <p>Excitingly enough, the game logic works, we have a list of things to finish, see below.</p>
+                        </div>
+                        <div class="about-images">
+                            <img src="./assets/images/hp/hp_balloons.png" alt="">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="box">
+                            <div class="no-box-grid-container">
                                 <!-- character lineup! -->
                                 <h2>The Characters</h2>
                                 <br>
@@ -100,17 +112,42 @@
                                     <img src="./assets/images/hp/hp_hagrid.png" alt="hagrid-img" id="hagrid">
                                 </div>
                                 <!-- character/game info - s p r e a d -->
-                                <ul>
-                                    <li id="ab"><b>Front-end and UI design & development</b></li>
+                                <ul class="inline-list">
                                     <li id="cd"><b>Coding and Game Design using Scratch</b></li>
                                     <li id="ef"><b>Vector graphic illustrations Editing</b></li>
                                     <li id="gh"><b>Storyboard and Ideas Creation</b></li>
                                     <li id="ij"><b>2D Story and Game Conception</b></li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <!-- scratch party story section embed  -->
+                    <section class="story-embed" id="story">
+                        <div class="boxes">
+                            <div class="container">
+                                <div class="box">
+                                    <!-- section title -->
+                                    <h2>The Harry Potter Secret Birthday Party</h2>
+                                    <h3>A Birthday story, coded for Sophia Davis</h3>
+                                    <br>
+                                    <h4><em><b>WARNING!! HIT THE GREEN FLAG TWICE <br> (I have a BUG to find!)</b></em></h4>
+                                </div>
+                                <div class="box">
+                                    <!-- embedded project -->
+                                    <iframe src="https://scratch.mit.edu/projects/783861452/embed" 
+                                    allowtransparency="true" width="970" height="804" frameborder="0" 
+                                    scrolling="no" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="container">
+                        <div class="box">
                             <!-- todo features blurb -->
+                            <h2 style="text-align: left; padding-left: .8rem;">The Neverending TO DO List! (Creator editable - coming soon!)</h2>
                             <!-- features and todos list-->
-                            <ul>
+                            <ul class="todo-ul">
                                 <li>Add drop items images</li>
                                 <li>Create a better scoring system that accounts for 'good' and 'bad' items caught</li>
                                 <li>Merge the game intro content into the game code itself</li>
@@ -121,45 +158,43 @@
                                 <li>You can find an extensive list of 'features, issue-todo's and bugs' within the repo documentation <a href="#">here!</a></li> 
                                 <li>You can even see how this website was built and peruse the code! Just go to your web browsers inspector page (press fn + F12 keys)</li>
                             </ul>
-                            <!-- onward! -->
-                            <p>Now, on with the show! - GlitchyGhost (Chief Game Designer/Master Builder)</p>
                         </div>
                     </div>
                 </div>
                 <!-- the project previews -->
-                <div class="project-boxes">
+                <div class="boxes">
                     <div class="container">
                         <!-- projects grid -->
                         <div class="grid-container">
                             <!-- project 1: The game Intro -->
-                            <figure id="game-intro" class="project-item">
+                            <figure id="party" class="project-item">
                                 <div class="project-image">
-                                    <a href="https://matt-jones-developer.github.io/ultimate-study-guide/" class="project-item" id="studyguide">
-                                        <img src="./assets/images/png/screenshots/ultimate_study_guide_screenshot_new.png" alt="ultimate-study-guide img">
+                                    <a href="https://matt-jones-developer.github.io/ultimate-study-guide/" class="project-item" id="story">
+                                        <img src="./assets/images/screenshots/Secret_Party_Sneaky_Preview.png" alt="story_peek-img">
                                     </a>
                                 </div>
                                 <div class="project-heading">
                                     <a href="https://matt-jones-developer.github.io/ultimate-study-guide/">
-                                        The Game Intro</a>
+                                        The Magic Super Secret Birthday Party - Animated Story</a>
                                 </div>
                             </figure>
                             <!-- project 2: The Birthday Party -->
-                            <figure id="story" class="project-item">
+                            <figure id="intro" class="project-item">
                                 <div class="project-image">
-                                    <a href="https://github.com/Matt-Jones-Developer/rock-paper-knife" class="project-item" id="rpk">
-                                        <img src="./assets/images/png/screenshots/rock_paper_knife_loader.png" alt="rock paper knife img">
+                                    <a href="https://github.com/Matt-Jones-Developer/rock-paper-knife" class="project-item" id="intro">
+                                        <img src="./assets/images/screenshots/game_intro_title.png" alt="game-intro-peek img">
                                     </a>
                                 </div>
                                 <div class="project-heading">
                                     <a href="https://github.com/Matt-Jones-Developer/rock-paper-knife">
-                                        The Magic Super Secret Birthday Party - Story</a>
+                                        The Game Intro Title</a>
                                 </div>
                             </figure>
                             <!-- project 3: The HP Game! -->
                             <figure id="game" class="project-item">
                                 <div class="project-image">
-                                    <a href="https://matt-jones-developer.github.io/Gameboy-Builder/" class="project-item" id="gameboy">
-                                        <img src="./assets/images/png/screenshots/gameboy_assets_site.png" alt="gameboy assets img">
+                                    <a href="https://matt-jones-developer.github.io/Gameboy-Builder/" class="project-item" id="game">
+                                        <img src="./assets/images/screenshots/the_game_sneak_peak.png" alt="game-demo-peek img">
                                     </a>
                                 </div>
                                 <div class="project-heading">
@@ -171,25 +206,6 @@
                     </div>
                 </div>
             </section>
-            <!-- scratch party story section embed  -->
-            <section class="story-embed" id="story">
-                <div class="boxes">
-                    <div class="container">
-                        <div class="box">
-                            <!-- section title -->
-                            <h2>The Harry Potter Secret Birthday Party</h2>
-                            <h3>A Birthday story, coded for Sophia Davis</h3>
-                        </div>
-                        <div class="box">
-                            <!-- embedded project -->
-                            <iframe src="https://scratch.mit.edu/projects/783861452/embed" 
-                            allowtransparency="true" width="970" height="804" frameborder="0" 
-                            scrolling="no" allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
     </main>
     <!-- footer -->
@@ -197,17 +213,17 @@
         <!-- footer social icons -->
         <div class="footer-icons">
             <ul class="ul-icons">
-                <li><a href="#"><img src="./assets/images/svg/icons/icn_mail_wht.svg" width="24px" height="24px" alt="mail-icn"></a></li>
-                <li><a href="https://github.com/Matt-Jones-Developer" class="git-icn"><img src="./assets/images/svg/icons/github_icn_wht.svg" width="24px" height="24px" alt="github-icn"></a></li>
-                <li><a href="https://glitchygames.slack.com"><img src="./assets/images/svg/icons/slack_color.svg" width="24px" height="24px" alt="slack-icn"></a></li>
-                <li><a href="https://twitter.com/glitchy81_dev"><img src="./assets/images/svg/icons/icn_twitter_wht.svg" width="24px" height="24px" alt="twitter-icn"></a></li>
-                <li><a href="#"><img src="./assets/images/svg/icons/icn_linkedin.svg" width="24px" height="24px" alt="linkedin-icn"></a></li>
+                <li><a href="#"><img src="./assets/images/icns/icn_mail_wht.svg" width="24px" height="24px" alt="mail-icn"></a></li>
+                <li><a href="https://github.com/Matt-Jones-Developer" class="git-icn"><img src="./assets/images/icns/github_icn_wht.svg" width="24px" height="24px" alt="github-icn"></a></li>
+                <li><a href="https://glitchygames.slack.com"><img src="./assets/images/icns/slack_color.svg" width="24px" height="24px" alt="slack-icn"></a></li>
+                <li><a href="https://twitter.com/glitchy81_dev"><img src="./assets/images/icns/icn_twitter_wht.svg" width="24px" height="24px" alt="twitter-icn"></a></li>
+                <li><a href="#"><img src="./assets/images/icns/icn_linkedin.svg" width="24px" height="24px" alt="linkedin-icn"></a></li>
             </ul>
         </div>
         <div class="footer-text">
             <p>
                 Designed & <code style="color:#A0FCD6;">coded</code> with <strong>love</strong> 
-                by <a href="https://github.com/Matt-Jones-Developer">Matt Jones</a>. &copy; 2022. All rights reserved.
+                by <a href="https://github.com/Matt-Jones-Developer">Matt Jones for GlitchyGames</a>. &copy; 2023. All rights reserved.
             </p>
             <br>
         </div>

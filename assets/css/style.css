@@ -72,14 +72,14 @@ ul {
     padding-left: 1.5rem;
 }
 
-ul>li {
+/* ul>li {
     list-style-type: none;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     margin-right: 1rem;
-}
+} */
 
 a {
     text-decoration: none;
@@ -226,6 +226,7 @@ em {
     float: right;
     padding-left: 2rem;
     padding-top: 16rem;
+    padding-right: 1rem;
 }
 
 .hero-image img {
@@ -260,6 +261,7 @@ em {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 
@@ -291,19 +293,47 @@ em {
     text-align: left;
 }
 
+.about h2 {
+    text-align: center;
+}
+
+.inline-list li {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.about-images img {
+    width: 400px;
+}
+
+/* todo list */
+.todo-ul h2 {
+    text-align: left;
+}
+.todo-ul {
+    text-align: left;
+}
+
+.todo-ul ul>li {
+    display: block;
+    
+}
+.todo-ul ul li {
+    list-style-type: circle;
+}
+
 /* projects grid */
 
 .grid-container {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px 300px 300px 300px;
+    grid-template-rows: 500px;
     gap: 3rem;
     grid-template-areas:
-        "studyguide studyguide studyguide"
-        "studyguide studyguide studyguide"
-        "rpk gameboy pools"
-        "bio horiseon survey";
+        "party intro game";
 }
 
 .project-item img {
