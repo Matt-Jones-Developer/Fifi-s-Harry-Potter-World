@@ -229,6 +229,10 @@ em {
     padding-right: 1rem;
 }
 
+.title-2 h1 {
+    font-size: 40px;
+}
+
 .hero-image img {
     padding-top: 4rem;
     width: 200px;
