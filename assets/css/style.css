@@ -224,9 +224,11 @@ em {
 
 .title-2 {
     float: right;
-    padding-left: 2rem;
-    padding-top: 16rem;
-    padding-right: 1rem;
+    padding-top: 2rem;
+}
+
+.title-2 h1 {
+    font-size: 48px;
 }
 
 .title-2 h1 {
@@ -240,7 +242,7 @@ em {
 
 .header-hero .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
@@ -265,7 +267,7 @@ em {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 0;
 }
 
 
@@ -284,7 +286,7 @@ em {
 .box-grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
         "about-text about-text photo";
     justify-content: center;
@@ -334,7 +336,7 @@ em {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px;
+    grid-template-rows: 330px;
     gap: 3rem;
     grid-template-areas:
         "party intro game";
@@ -585,6 +587,11 @@ em {
         margin-right: 7px;
         margin-bottom: 1rem;
         gap: 4px;
+    }
+
+    /* fifi header */
+    .header-hero .container{
+        display: block;
     }
 
     /* about box */
