@@ -4,5 +4,5 @@ A Special Birthday Animated Story and HP Game Website with all the trimmings! Co
 
 # Wireframing shots
 
-![wireframing1]()
-![wireframing2]()
+![wireframing1](assets/images/screenshots/wireframing2.png)
+![wireframing2](assets/images/screenshots/wireframing1.png)
